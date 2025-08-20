@@ -1,4 +1,3 @@
-```markdown
 # Best Route Planner
 
 Computes the fastest route for a courier to pick up and deliver N orders.  
@@ -23,8 +22,7 @@ The package is designed with extensibility in mind and applies key low-level des
 
 ## Project Structure
 
-```
-
+```bash
 best\_route/
 ├── enums.py             # Enums for ActionType, Notes
 ├── geo.py               # Location model and Haversine distance
@@ -38,8 +36,7 @@ tests/
 └── test\_scheduler.py    # Unit tests
 sample.json               # Example input
 README.md                 # Project documentation
-
-````
+```
 
 ---
 
@@ -56,7 +53,7 @@ source .venv/bin/activate   # Linux/Mac
 
 # Install dependencies (none required beyond standard library)
 pip install -U pip
-````
+```
 
 ---
 
@@ -152,7 +149,3 @@ This problem is a variant of the **Pickup and Delivery Problem**, which is NP-ha
   * Greedy insertion heuristic
   * Metaheuristics such as Simulated Annealing or Large Neighborhood Search
   * Mixed-Integer Linear Programming (MILP) formulations
-
----
-
-```
