@@ -1,0 +1,58 @@
+{
+  "avg_speed_kmph": 20,
+  "courier_start": {
+    "name": "Start",
+    "lat": 12.935,
+    "lon": 77.61
+  },
+  "restaurants": [
+    {
+      "id": "R1",
+      "location": {
+        "name": "R1",
+        "lat": 12.94,
+        "lon": 77.62
+      },
+      "prep_time_min": 12
+    },
+    {
+      "id": "R2",
+      "location": {
+        "name": "R2",
+        "lat": 12.93,
+        "lon": 77.6
+      },
+      "prep_time_min": 8
+    }
+  ],
+  "consumers": [
+    {
+      "id": "C1",
+      "location": {
+        "name": "C1",
+        "lat": 12.945,
+        "lon": 77.625
+      }
+    },
+    {
+      "id": "C2",
+      "location": {
+        "name": "C2",
+        "lat": 12.925,
+        "lon": 77.605
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": "O1",
+      "restaurant_id": "R1",
+      "consumer_id": "C1"
+    },
+    {
+      "id": "O2",
+      "restaurant_id": "R2",
+      "consumer_id": "C2"
+    }
+  ]
+}
